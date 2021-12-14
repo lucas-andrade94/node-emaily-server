@@ -1,0 +1,31 @@
+.background {
+  background-color: #a569bd;
+}
+
+.navlinks {
+  text-decoration: none;
+  align-items: center;
+}
+
+.navlinks:hover {
+  font-weight: bold;
+}
+
+.menu-dropdown {
+  background-color: #a569bd;
+  border: none;
+}
+
+.menu-dropdown:hover {
+  background-color: #a569bd;
+  border: none;
+  opacity: 0.7;
+  transition: ease-in-out 0.3s;
+}
+
+.menu-dropdown:active {
+  background-color: #a569bd;
+  border: none;
+  opacity: 0.7;
+  transition: ease-in-out 0.3s;
+}

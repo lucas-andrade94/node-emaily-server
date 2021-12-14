@@ -1,0 +1,33 @@
+.survey-list-container {
+  padding-top: 2rem;
+}
+
+.survey-card-container {
+  margin: 1rem 0;
+  border-radius: 1rem;
+  border: solid #a569bd;
+  background: #d2b4de;
+}
+
+.survey-dates {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.results {
+  font-weight: bold;
+  color: #4a235a;
+}
+
+.survey-form-container {
+  margin-top: 2rem;
+}
+
+.buttons-form-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+}

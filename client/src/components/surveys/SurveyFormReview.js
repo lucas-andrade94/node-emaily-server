@@ -9,7 +9,7 @@ const SurveyFormReview = ({ onGoBack, formValues, submitSurvey, history }) => {
   const reviewFields = formFields.map(({ label, name }) => {
     return (
       <div key={name}>
-        <label>{label}</label>
+        <h6>{label}</h6>
         <p>{formValues[name]}</p>
       </div>
     );
@@ -18,18 +18,20 @@ const SurveyFormReview = ({ onGoBack, formValues, submitSurvey, history }) => {
   const navigate = useNavigate();
 
   return (
-    <div>
+    <div className="container survey-form-container">
       <h5>Please, confirm your entries</h5>
       {reviewFields}
-      <button className="red white-text btn-flat" onClick={onGoBack}>
-        Back
-      </button>
-      <button
-        onClick={() => submitSurvey(formValues, navigate)}
-        className="green white-text btn-flat right"
-      >
-        Submit Survey <i className="material-icons right">email</i>
-      </button>
+      <div className="buttons-form-container">
+        <button className="btn btn-danger text-light" onClick={onGoBack}>
+          Back
+        </button>
+        <button
+          onClick={() => submitSurvey(formValues, navigate)}
+          className="btn btn-success text-light"
+        >
+          Submit Survey
+        </button>
+      </div>
     </div>
   );
 };

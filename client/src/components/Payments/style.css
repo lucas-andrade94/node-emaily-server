@@ -1,0 +1,9 @@
+.button {
+  background-color: #c0392b;
+}
+
+.button:hover {
+  opacity: 0.8;
+  background-color: #641e16;
+  transition:ease-in-out 0.3s;
+}

@@ -1,0 +1,19 @@
+.button-container {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2rem 1rem 2rem 0;
+}
+
+.button-survey {
+  background-color: #c0392b;
+}
+
+.button-survey:hover {
+  opacity: 0.8;
+  background-color: #641e16;
+  transition: ease-in-out 0.3s;
+}
+
+.decoration {
+  text-decoration: none;
+}

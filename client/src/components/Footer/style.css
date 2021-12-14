@@ -1,0 +1,17 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../assets/background.svg");
+  height: 100%;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
